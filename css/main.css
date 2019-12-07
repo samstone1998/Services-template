@@ -1,0 +1,44 @@
+/* Styles go here */
+
+*{
+  font-family: 'Solway', serif;
+  line-height: 1.5;
+}
+
+.navbar {
+  border-bottom: solid 2px #27ae60;
+}
+
+
+
+#services {
+  background-color: #27ae60;
+  color:white;
+}
+
+.reasons-icon{
+  width:250px;
+  padding:10px 30px;
+}
+
+#services div p{
+  color:black;
+}
+
+.sub-btn, .sub-btn:hover{
+ background-color: #27ae60;
+ border:none;
+}
+
+
+
+@media (max-width: 568px){
+   .nav-item{
+     display:none;
+   }
+   
+   .navbar-brand{
+     width:100%;
+     text-align:center;
+   }
+}
