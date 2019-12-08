@@ -79,7 +79,6 @@ nav{
   width:200px;
 }
 
-.price-box{
-  margin-left:0px;
-  margin-right:0px;
+.price-box ul li a{
+  font-size:1em;
 }
