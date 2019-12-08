@@ -6,7 +6,7 @@
 }
 
 .navbar {
-  border-bottom: solid 2px #27ae60;
+  border-bottom: solid 4px #27ae60;
 }
 
 
@@ -23,6 +23,7 @@
 
 #services div p{
   color:black;
+  font-size:1.2em;
 }
 
 .sub-btn, .sub-btn:hover{
@@ -30,19 +31,50 @@
  border:none;
 }
 
+#footer{
+  background-color: white;
+  height:75px;
+}
+
+#pricing-section, .price-btn{
+  background-color:#3498db;
+}
+
+.price-box{
+  box-shadow: 10px 10px #2c3e50;
+}
+
+.price-box ul{
+  font-size:1.2em;
+}
+
+
+
+@media (max-width 768px){
+  .price-box ul{
+    text-align:center;
+  }
+}
 
 
 @media (max-width: 568px){
    .nav-item{
      display:none;
    }
-   
+
+nav{
+  text-align:center;
+}
+
    .navbar-brand{
      width:100%;
-     text-align:center;
    }
-  
-   .reasons-icon{
-     width:200px;
-   }
+
+#choose-us div{
+  justify-content:center;
+  margin: 0px;
+}
+
+.reasons-icon{
+  width:200px;
 }

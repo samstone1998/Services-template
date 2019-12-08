@@ -6,15 +6,19 @@
   <link rel="stylesheet" href="css/main.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css?family=Solway&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+
 
 </head>
 
 <body>
 
   <div class="container-full">
-    
+
     <!-- nav section -->
-    <nav class="nav bg-light navbar">
+    <nav class="nav bg-light navbar navbar-fixed-top">
       <a class="navbar-brand ml-5">Logo</a>
       <ul class="nav ml-auto mr-5">
         <li class="nav-item"><a class="nav-link text-dark" href="index.html" disabled>Home</a></li>
@@ -22,63 +26,114 @@
         <li class="nav-item"><a class="nav-link text-dark" href=#contact-us>Contact us</a></li>
       </ul>
     </nav>
-    
+
         <!-- header image -->
-    <img src="https://www.wellstarfacilities.org/wp-content/uploads/2018/06/garding.jpg" class="img-fluid">
-    
+    <img src="images/header-image.png" class="img-fluid">
+
     <!-- why choose us section -->
     <div class="col-md text-center mb-5" id="choose-us">
-      
+
       <h1 class="text-center mt-5">Why choose our services</h1>
-      
+
       <div class="col-md-12 row justify-content-around">
-          
+
         <div class="col-lg-3 col-md-8 mt-5 reason-box">
         <h2 class="mb-4">Fast delivery</h2>
         <img src="images/clockicon.png" title="money icon" class="reasons-icon">
-        <p class="pt-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+        <p class="pt-3 text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
         </div>
-        
+
         <div class="col-lg-3 col-md-8 mt-5 reason-box">
         <h2 class="mb-4">Lower fees</h2>
         <img src="images/moneyicon.png" title="money icon" class="reasons-icon">
         <p class="pt-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
         </div>
-        
+
         <div class="col-lg-3 col-md-8 mt-5 reason-box">
         <h2 class="mb-4">Reliable</h2>
        <img src="images/qualityicon.png" title="money icon" class="reasons-icon">
         <p class="pt-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
         </div>
-  
+
       </div>
     </div>
-    
-    <!-- services we offer -->
-    <div class="col-md text-center py-5" id="services">
-      <h1 class="text-center">Our services</h1>
-      <div class="col-md-8 pt-5 mx-auto">
-        <h4>Garden clearance</h4>
-        <p class="pt-3 col-md-8 mx-auto">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+
+    <!-- services section (Maybe this could also be a list?) -->
+    <div class="col-md mx-auto pt-2 pb-5 row  text-center pt-5" id="services">
+      <div class="col-md-5 col-md-5 my-auto mx-auto">
+        <h3 class="col-md-10">Our services</h3>
+        <p class="pt-3 col-md-10">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+        <p class="col-md-10">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+
+
       </div>
-      
-      <div class="col-md-8 pt-5 mx-auto">
-        <h4>Garden design</h4>
-        <p class="pt-3 col-md-8 mx-auto">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+
+      <div class="col-md-6 my-auto">
+        <img src="images/services-image.png" class="img-fluid" alt="Services image">
       </div>
-      
-      <div class="col-md-8 pt-5 mx-auto">
-        <h4>Garden cleaning</h4>
-        <p class="pt-3 col-md-8 mx-auto">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+    </div>
+
+    <!-- pricing section -->
+
+    <div class="col-md text-center py-5" id="pricing-section">
+
+      <h1 class="text-center ">Pricing</h1>
+
+      <div class="col-md-12 row justify-content-center">
+
+        <div class="col-lg-3 col-md-8 m-5 pb-3 pb-3 bg-light rounded price-box">
+        <h3 class="text-muted py-3">Starter</h3>
+        <h3 class="text-black">$14 Month</h3>
+        <hr>
+        <ul class="list-unstyled text-left">
+          <li><span><i class="small material-icons">check</i></span> 1 login</li>
+          <li><span><i class="small material-icons">check</i></span> 3 domains</li>
+          <li class="text-muted"><span><i class="small material-icons">close</i></span> Unlimited support</li>
+          <li class="text-muted"><span><i class="small material-icons">close</i></span> Unlimited logs</li>
+          <li class="text-muted"><span><i class="small material-icons">close</i></span> Real time updates</li>
+          <li class="text-muted"><span><i class="small material-icons">close</i></span> Free updates</li>
+        </ul>
+        <button type="button" class="btn price-btn text-white btn-lg">Check out</button>
       </div>
-      
+
+        <div class="col-lg-3 col-md-8 m-5 pb-3 bg-light rounded price-box">
+        <h3 class="text-muted py-3">Pro</h3>
+        <h3 class="text-black">$25 Month</h3>
+        <hr>
+        <ul class="list-unstyled text-left">
+          <li><span><i class="small material-icons">check</i></span> 5 logins</li>
+          <li><span><i class="small material-icons">check</i></span> 10 domains</li>
+          <li><span><i class="small material-icons">check</i></span> Unlimited support</li>
+          <li><span><i class="small material-icons">check</i></span> Unlimited logs</li>
+          <li class="text-muted"><span><i class="small material-icons">close</i></span> Real time updates</li>
+          <li class="text-muted"><span><i class="small material-icons">close</i></span> Free updates</li>
+        </ul>
+        <button type="button" class="btn price-btn text-white btn-lg">Check out</button>
+        </div>
+
+        <div class="col-lg-3 col-md-8 m-5 pb-3 bg-light rounded price-box">
+        <h3 class="text-muted py-3">Master</h3>
+        <h3 class="text-black">$50 Month</h3>
+        <hr>
+        <ul class="list-unstyled text-left">
+          <li><span><i class="small material-icons">check</i></span> Unlimited logins</li>
+          <li><span><i class="small material-icons">check</i></span> Unlimited domains</li>
+          <li><span><i class="small material-icons">check</i></span> Unlimited support</li>
+          <li><span><i class="small material-icons">check</i></span> Unlimited logs</li>
+          <li><span><i class="small material-icons">check</i></span> Real time updates</li>
+          <li><span><i class="small material-icons">check</i></span> Free updates</li>
+        </ul>
+        <button type="button" class="btn price-btn text-white btn-lg">Check out</button>
+        </div>
+
+      </div>
     </div>
 
   <!-- contact us form -->
   <div class="col-lg-8 col-sm text-center my-5 mx-auto" id="contact-us">
     <h1 class="text-center mt-5 mb-3">Contact us</h1>
     <p class="col-md-9 col-sm mx-auto mb-4">Need to contact us about one of our services? Use the form below and we will get back to you within one working day. Urgent? call us now on 0792 8472 743 between the hours of 9am to 7pm.</p>
-    
+
     <div class="col-md-8 mx-auto col-lg-6 col-sm-12">
       <form action="#" type="post">
         <input type="text" class="form-control" placeholder="Full name" required >
@@ -88,6 +143,14 @@
       </form>
     </div>
   </div>
+
+
+  <!-- footer section -->
+    <div class="page-footer" id="footer">
+
+
+
+    </div>
 
   </div>
 </body>
