@@ -44,7 +44,7 @@
   box-shadow: 10px 10px #2c3e50;
 }
 
-.price-box ul{
+.price-box ul li a{
   font-size: 0.9em;
 }
 
