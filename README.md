@@ -2,11 +2,11 @@
 A responsive html and css template made using Bootstrap. This was one of my first templates designed using the framework so it will be interesting to see just how better my templates get over time.
 
 ## Technologies used:
-  HTML
+  - HTML
   
-  CSS
+  - CSS
   
-  Bootstrap framework
+  - Bootstrap
   
 ## What could be improved
 When doing anything in life I believe there are improvements that can be made. Now looking back at this project( I am writing this section in the future) there is a lot of css inside the linked css file that could have been done using bootstrap making the project much cleaner.
